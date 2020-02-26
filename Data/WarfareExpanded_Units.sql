@@ -614,7 +614,7 @@ VALUES
 ('UNIT_LONGSWORDSMAN', 		0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0),
 ('UNIT_MISSILE_FRIGATE', 	1, 							1, 				'RESOURCE_OIL', 			0, 				1, 					0, 						1, 							0);
 
--- Deliverator's Units
+-- R&F Compatibility
 INSERT INTO Units_XP2
 (UnitType,					ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
 SELECT 	UnitType,			0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0 
@@ -745,23 +745,11 @@ INSERT INTO UnitReplaces
 SELECT	'UNIT_MAPUCHE_MALON_RAIDER',	'UNIT_HARQUEBUSIER'
 WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MAPUCHE_MALON_RAIDER');
 
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 				ReplacesUnitType)
-SELECT 'UNIT_SPANISH_TERCIO', 			'UNIT_PIKE_AND_SHOT'
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_AMERICAN_AH64_APACHE')
-AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SPANISH_TERCIO');
-
 -- GS Compatibility
 INSERT INTO UnitReplaces
 (		CivUniqueUnitType,				ReplacesUnitType)
 SELECT	'UNIT_AMERICAN_ROUGH_RIDER',	'UNIT_DLV_CUIRASSIER'
 WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
-
-INSERT INTO UnitReplaces 
-(		CivUniqueUnitType,				ReplacesUnitType)
-SELECT 	'UNIT_AMERICAN_ROUGH_RIDER', 	'UNIT_CUIRASSIER'
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_AMERICAN_AH64_APACHE')
-AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
 
 
 -- # Technology Prereqs #
