@@ -257,7 +257,7 @@
 			<Text>Guided Missile Destroyer</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MISSILE_DESTROYER_DESCRIPTION">
-			<Text>Strongest melee naval unit. Reveals submarines within sight range.</Text>
+			<Text>Strongest ranged naval unit. Provides cover from air and nuclear attacks up to 1 tile away.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUPERCARRIER_NAME">
 			<Text>Supercarrier</Text>
@@ -474,6 +474,12 @@
 		</Row>
 		<Row Tag="LOC_UNIT_RAILGUN_WARSHIP_DESCRIPTION">
 			<Text>Information era naval bombard unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_NAME">
+			<Text>Guided Missile Frigate</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION">
+			<Text>Strongest melee naval unit. Reveals submarines within sight range.</Text>
 		</Row>
 		<!-- Deliverator's Units -->
 		<Row Tag="LOC_UNIT_EXPLORER_NAME">
