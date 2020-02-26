@@ -616,14 +616,14 @@ VALUES
 
 -- R&F Compatibility
 INSERT INTO Units_XP2
-(UnitType,					ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
-SELECT 	UnitType,			0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0 
-FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER';
+(UnitType,						ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
+SELECT 	'UNIT_DLV_CUIRASSIER',	0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0 
+WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
 
 INSERT INTO Units_XP2
-(UnitType,					ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
-SELECT UnitType, 			0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0
-FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN';
+(UnitType,							ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
+SELECT 'UNIT_MEDIEVAL_HORSEMAN', 	0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0
+WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN');
 
 
 -- # Unit Upgrades #
