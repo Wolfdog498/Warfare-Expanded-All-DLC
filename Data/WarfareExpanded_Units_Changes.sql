@@ -133,7 +133,7 @@ WHERE UnitType = 'UNIT_MODERN_ARMOR';
 UPDATE Units SET BaseMoves = 10, Range = 10, Combat = 115, RangedCombat = 105
 WHERE UnitType = 'UNIT_JET_FIGHTER';
 
-UPDATE Units SET BaseMoves = 5, Range = 2, PrereqTech = 'TECH_NUCLEAR_FUSION'
+UPDATE Units SET BaseMoves = 4, Cost = 690, PromotionClass = 'PROMOTION_CLASS_NAVAL_BOMBARD', Range = 5, Combat = 90, Bombard = 100, RangedCombat = 0, AntiAirCombat = 88, PrereqTech = 'TECH_NUCLEAR_FUSION'
 WHERE UnitType = 'UNIT_MISSILE_CRUISER';
 
 -- Civilization & Scenario Pack Compatibility
@@ -276,9 +276,6 @@ WHERE Unit = 'UNIT_FRIGATE';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_TORPEDO_GUNBOAT'
 WHERE Unit = 'UNIT_IRONCLAD';
-
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RAILGUN_WARSHIP'
-WHERE Unit = 'UNIT_BATTLESHIP';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RAILGUN_WARSHIP'
 WHERE Unit = 'UNIT_BRAZILIAN_MINAS_GERAES';
