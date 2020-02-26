@@ -82,6 +82,12 @@
 		<Replace Tag="LOC_UNIT_NUCLEAR_SUBMARINE_NAME">
 			<Text>Ballistic Missile Submarine</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_CRUISER_NAME">
+			<Text>Guided Missile Cruiser</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION">
+			<Text>Strongest naval bombard unit. Provides cover from air and nuclear attacks up to 1 tile away.</Text>
+		</Replace>
 		<!-- S&T:UU -->
 		<Replace Tag="LOC_UNIT_ENGLISH_SHIP_OF_THE_LINE_NAME">
 			<Text>First-rate</Text>
