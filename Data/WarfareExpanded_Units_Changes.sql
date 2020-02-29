@@ -73,9 +73,6 @@ WHERE UnitType = 'UNIT_FIELD_CANNON';
 UPDATE Units SET BaseMoves = 4
 WHERE UnitType = 'UNIT_AMERICAN_ROUGH_RIDER';
 
-UPDATE Units SET BaseMoves = 4, Cost = 520, Bombard = 82, RangedCombat = 0, PromotionClass = 'PROMOTION_CLASS_NAVAL_BOMBARD' 
-WHERE UnitType = 'UNIT_BRAZILIAN_MINAS_GERAES';
-
 -- Modern Era
 UPDATE Units SET PrereqTech = 'TECH_SCIENTIFIC_THEORY'
 WHERE UnitType = 'UNIT_OBSERVATION_BALLOON';
@@ -88,6 +85,9 @@ WHERE UnitType = 'UNIT_ARTILLERY';
 
 UPDATE Units SET BaseMoves = 5, Range = 5, Combat = 85, RangedCombat = 70, MandatoryObsoleteTech = 'TECH_ADVANCED_FLIGHT' 
 WHERE UnitType = 'UNIT_BIPLANE';
+
+UPDATE Units SET BaseMoves = 4, Cost = 520, Bombard = 82, RangedCombat = 0, PromotionClass = 'PROMOTION_CLASS_NAVAL_BOMBARD' 
+WHERE UnitType = 'UNIT_BRAZILIAN_MINAS_GERAES';
 
 -- Atomic Era
 UPDATE Units SET Cost = 500, Combat = 80, PrereqTech = 'TECH_PLASTICS', MandatoryObsoleteTech = 'TECH_LASERS' 
