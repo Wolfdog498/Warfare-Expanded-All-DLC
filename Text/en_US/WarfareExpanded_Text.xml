@@ -160,10 +160,10 @@
 			<Text>Future era air bomber unit with stealth capability.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_STEALTH_FIGHTER_NAME">
-			<Text>Stealth Fighter</Text>
+			<Text>Stealth Multirole - Fighter</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_STEALTH_FIGHTER_DESCRIPTION">
-			<Text>Future era air fighter unit with stealth capability.</Text>
+			<Text>Future era air stealth multirole fighter setup in the fighter role.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_WW1_GROUND_ATTACK_NAME">
 			<Text>Early Ground-Attack</Text>
@@ -184,10 +184,10 @@
 			<Text>Information era air ground-attack unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_STEALTH_ATTACK_NAME">
-			<Text>Stealth Ground-Attack</Text>
+			<Text>Stealth  Multirole - Attack</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_STEALTH_ATTACK_DESCRIPTION">
-			<Text>Future era air ground-attack unit with stealth capability.</Text>
+			<Text>Future era air stealth multirole fighter setup in the ground attack role.</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_CLASS_AIR_ATTACK_NAME">
 			<Text>Air Ground-Attack</Text>
