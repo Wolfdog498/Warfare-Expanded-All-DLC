@@ -130,6 +130,9 @@ WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Combat = 98
 WHERE UnitType = 'UNIT_MODERN_ARMOR';
 
+UPDATE Units SET PrereqTech = 'TECH_NANOTECHNOLOGY'
+WHERE UnitType = 'UNIT_DRONE';
+
 UPDATE Units SET BaseMoves = 10, Range = 10, Combat = 115, RangedCombat = 105
 WHERE UnitType = 'UNIT_JET_FIGHTER';
 
