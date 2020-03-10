@@ -59,6 +59,9 @@
 		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_DESCRIPTION">
 			<Text>Macedonian unique heavy cavalry unit that replaces the Armored Horseman. Additional +5 [ICON_Strength] Combat Strength when adjacent to a Great General. +5 Great General points when killing an enemy unit. Starts with 1 free Promotion.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION">
+			<Text>Information era support unit. Adds +1 [ICON_Range] Range and +5 [ICON_Bombard] Bombard Strength to Siege class units within 1 hex.</Text>
+		</Replace>
 		<!-- Air Units -->
 		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION">
 			<Text>Atomic era Early Bomber upgrade.</Text>
