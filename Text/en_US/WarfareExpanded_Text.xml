@@ -146,6 +146,54 @@
 		<Row Tag="LOC_UNIT_WECE_PIKE_AND_SHOT_DESCRIPTION">
 			<Text>Renaissance era melee unit that's effective against mounted units.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_EXPLORER_NAME">
+			<Text>Explorer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
+			<Text>Fast-moving Renaissance Era Recon unit. Ignores rivers when moving and has no disembark cost.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGSWORDSMAN_NAME">
+			<Text>Longswordsman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGSWORDSMAN_DESCRIPTION">
+			<Text>Medieval Era Melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RIFLEMAN_NAME">
+			<Text>Rifleman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION">
+			<Text>Industrial Era Melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TREBUCHET_NAME">
+			<Text>Trebuchet</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+			<Text>Medieval Era Siege unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME">
+			<Text>Courser</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION">
+			<Text>Medieval Era Light Cavalry unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_NAME">
+			<Text>Cuirassier</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_DESCRIPTION">
+			<Text>Industrial Era Heavy Cavalry unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GATLING_GUN_NAME">
+			<Text>Gatling Gun</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION">
+			<Text>Industrial Era Fire Support unit. Bonus [ICON_Strength] Combat Strength against Melee, Anti-Cavalry and Light Cavalry units. Cannot move and attack on the same turn unless the Fire and Maneuver Promotion has been earned.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RECON_HELICOPTER_NAME">
+			<Text>Observation helicopter</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RECON_HELICOPTER_DESCRIPTION">
+			<Text>Atomic era support unit. Adds +1 [ICON_Range] Range and +5 [ICON_Bombard] Bombard Strength to Siege class units within 1 hex.</Text>
+		</Row>
 		<!-- Air Units -->
 		<Row Tag="LOC_UNIT_WW1_BOMBER_NAME">
 			<Text>Early Bomber</Text>
@@ -475,60 +523,17 @@
 		<Row Tag="LOC_UNIT_RAILGUN_WARSHIP_DESCRIPTION">
 			<Text>Information era naval bombard unit.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_NAME">
-			<Text>Guided Missile Frigate</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION">
-			<Text>Strongest melee naval unit. Reveals submarines within sight range.</Text>
-		</Row>
-		<!-- Deliverator's Units -->
-		<Row Tag="LOC_UNIT_EXPLORER_NAME">
-			<Text>Explorer</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
-			<Text>Fast-moving Renaissance Era Recon unit. Ignores rivers when moving and has no disembark cost.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_LONGSWORDSMAN_NAME">
-			<Text>Longswordsman</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_LONGSWORDSMAN_DESCRIPTION">
-			<Text>Medieval Era Melee unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_RIFLEMAN_NAME">
-			<Text>Rifleman</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION">
-			<Text>Industrial Era Melee unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_TREBUCHET_NAME">
-			<Text>Trebuchet</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
-			<Text>Medieval Era Siege unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME">
-			<Text>Courser</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION">
-			<Text>Medieval Era Light Cavalry unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_NAME">
-			<Text>Cuirassier</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_DESCRIPTION">
-			<Text>Industrial Era Heavy Cavalry unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_GATLING_GUN_NAME">
-			<Text>Gatling Gun</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION">
-			<Text>Industrial Era Fire Support unit. Bonus [ICON_Strength] Combat Strength against Melee, Anti-Cavalry and Light Cavalry units. Cannot move and attack on the same turn unless the Fire and Maneuver Promotion has been earned.</Text>
-		</Row>
 		<Row Tag="LOC_UNIT_COG_NAME">
 			<Text>Cog</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_COG_DESCRIPTION">
 			<Text>Medieval Era Naval Melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_NAME">
+			<Text>Guided Missile Frigate</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION">
+			<Text>Strongest melee naval unit. Reveals submarines within sight range.</Text>
 		</Row>
 		<!-- Created by Laurana Kanan for LKs Units (18.02.10) -->
 		<!-- New promotion class for Steel & Thunder Automatic Guns -->
