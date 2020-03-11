@@ -38,7 +38,6 @@ VALUES
 ('UNIT_WW1_GROUND_ATTACK',	'KIND_UNIT'),
 ('UNIT_GROUND_ATTACK',		'KIND_UNIT'),
 ('UNIT_JET_GROUND_ATTACK',	'KIND_UNIT'),
---('UNIT_STEALTH_ATTACK',		'KIND_UNIT'),
 ('UNIT_UAV',				'KIND_UNIT'),
 
 -- Naval Units
@@ -63,20 +62,6 @@ VALUES
 ('UNIT_RAIDER',				'KIND_UNIT'),
 ('UNIT_COG',				'KIND_UNIT'),
 ('UNIT_MISSILE_FRIGATE',	'KIND_UNIT');
-
--- R&F Compatibility
-INSERT INTO Types (Type, Kind)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'KIND_UNIT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
--- GS Compatibility
-INSERT INTO Types (Type, Kind)
-SELECT 'UNIT_EXPLORER',	'KIND_UNIT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO Types (Type, Kind)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'KIND_UNIT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO Types (Type, Kind)
-SELECT 'UNIT_DLV_CUIRASSIER', 'KIND_UNIT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
 
 
 -- # Unit AI Infos #
@@ -214,9 +199,6 @@ VALUES
 ('UNIT_JET_GROUND_ATTACK',		'UNITAI_COMBAT'),
 --('UNIT_JET_GROUND_ATTACK',		'UNITTYPE_AIR'),
 ('UNIT_JET_GROUND_ATTACK',		'UNITTYPE_AIR_SIEGE'),
---('UNIT_STEALTH_ATTACK',			'UNITAI_COMBAT'),
---('UNIT_STEALTH_ATTACK',			'UNITTYPE_AIR'),
---('UNIT_STEALTH_ATTACK',			'UNITTYPE_AIR_SIEGE'),
 ('UNIT_UAV',					'UNITAI_COMBAT'),
 ('UNIT_UAV',					'UNITTYPE_AIR_SIEGE'),
 
@@ -291,56 +273,6 @@ VALUES
 ('UNIT_MISSILE_FRIGATE',		'UNITTYPE_MELEE'),
 ('UNIT_MISSILE_FRIGATE',		'UNITTYPE_NAVAL');
 
--- R&F Compatibility
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'UNITAI_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'UNITAI_EXPLORE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'UNITTYPE_MELEE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'UNITTYPE_LAND_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
--- GS Compatibility
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_EXPLORER', 'UNITAI_EXPLORE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_EXPLORER', 'UNITTYPE_LAND_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_EXPLORER', 'UNITTYPE_MELEE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'UNITAI_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'UNITAI_EXPLORE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'UNITTYPE_CAVALRY' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'UNITTYPE_MELEE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'UNITTYPE_LAND_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_DLV_CUIRASSIER', 'UNITAI_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_DLV_CUIRASSIER', 'UNITTYPE_MELEE' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_DLV_CUIRASSIER', 'UNITTYPE_CAVALRY' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
-INSERT INTO UnitAIInfos (UnitType, AiType)
-SELECT 'UNIT_DLV_CUIRASSIER', 'UNITTYPE_LAND_COMBAT' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
 
 -- # Class Type Tags #
 -- Land Units
@@ -412,8 +344,6 @@ VALUES
 ('UNIT_WW1_GROUND_ATTACK',		'CLASS_AIRCRAFT'),
 ('UNIT_GROUND_ATTACK',			'CLASS_AIRCRAFT'),
 ('UNIT_JET_GROUND_ATTACK',		'CLASS_AIRCRAFT'),
---('UNIT_STEALTH_ATTACK',			'CLASS_AIRCRAFT'),
---('UNIT_STEALTH_ATTACK',			'CLASS_STEALTH'),
 ('UNIT_UAV',					'CLASS_AIRCRAFT'),
 
 -- Naval Units
@@ -460,26 +390,6 @@ VALUES
 ('UNIT_MISSILE_FRIGATE',		'CLASS_REVEAL_STEALTH'),
 ('UNIT_MISSILE_FRIGATE',		'CLASS_ANTI_AIR');
 
--- R&F Compatibility
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_HEAVY_HOWITZER', 'CLASS_TARGETTING_ASSIST' WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DRONE');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT', 'CLASS_ANTI_CAVALRY' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
--- GS Compatibility
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_EXPLORER', 'CLASS_RECON' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_EXPLORER', 'CLASS_REVEAL_STEALTH' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'CLASS_LIGHT_CAVALRY' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_DLV_CUIRASSIER', 'CLASS_HEAVY_CAVALRY' WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
 
 -- # New Units #
 -- Land Units
@@ -521,7 +431,6 @@ VALUES
 ('UNIT_WW1_GROUND_ATTACK',	5,			440,	'ADVISOR_CONQUEST',	4,				0,				'DOMAIN_AIR',	'FORMATION_CLASS_AIR',			'LOC_UNIT_WW1_GROUND_ATTACK_NAME',	'LOC_UNIT_WW1_GROUND_ATTACK_DESCRIPTION',	'YIELD_GOLD',	'PSEUDOYIELD_UNIT_AIR_COMBAT',		'PROMOTION_CLASS_AIR_ATTACK',	6,				75,		80,				5,		0,			null,				'TECH_FLIGHT',				'TECH_ADVANCED_FLIGHT',		1,				0,				0,			1,				1,			'DISTRICT_AERODROME',	0,			0),
 ('UNIT_GROUND_ATTACK',		8,			540,	'ADVISOR_CONQUEST',	4,				0,				'DOMAIN_AIR',	'FORMATION_CLASS_AIR',			'LOC_UNIT_GROUND_ATTACK_NAME',		'LOC_UNIT_GROUND_ATTACK_DESCRIPTION',		'YIELD_GOLD',	'PSEUDOYIELD_UNIT_AIR_COMBAT',		'PROMOTION_CLASS_AIR_ATTACK',	7,				95,		105,			8,		0,			'RESOURCE_ALUMINUM','TECH_ADVANCED_FLIGHT',		'TECH_LASERS',				1,				0,				0,			1,				1,			'DISTRICT_AERODROME',	0,			0),
 ('UNIT_JET_GROUND_ATTACK',	10,			675,	'ADVISOR_CONQUEST',	5,				0,				'DOMAIN_AIR',	'FORMATION_CLASS_AIR',			'LOC_UNIT_JET_GROUND_ATTACK_NAME',	'LOC_UNIT_JET_GROUND_ATTACK_DESCRIPTION',	'YIELD_GOLD',	'PSEUDOYIELD_UNIT_AIR_COMBAT',		'PROMOTION_CLASS_AIR_ATTACK',	8,				105,	115,			10,		0,			'RESOURCE_ALUMINUM','TECH_LASERS',				null,						1,				0,				0,			1,				1,			'DISTRICT_AERODROME',	0,			0),
---('UNIT_STEALTH_ATTACK',		10,			700,	'ADVISOR_CONQUEST',	5,				0,				'DOMAIN_AIR',	'FORMATION_CLASS_AIR',			'LOC_UNIT_STEALTH_ATTACK_NAME',		'LOC_UNIT_STEALTH_ATTACK_DESCRIPTION',		'YIELD_GOLD',	'PSEUDOYIELD_UNIT_AIR_COMBAT',		'PROMOTION_CLASS_AIR_ATTACK',	8,				115,	125,			10,		0,			'RESOURCE_ALUMINUM','TECH_NANOTECHNOLOGY',		null,						1,				0,				0,			1,				1,			'DISTRICT_AERODROME',	0,			1),
 ('UNIT_UAV',				10,			670,	'ADVISOR_CONQUEST',	5,				0,				'DOMAIN_AIR',	'FORMATION_CLASS_AIR',			'LOC_UNIT_UAV_NAME',				'LOC_UNIT_UAV_DESCRIPTION',					'YIELD_GOLD',	'PSEUDOYIELD_UNIT_AIR_COMBAT',		'PROMOTION_CLASS_AIR_ATTACK',	8,				60,		125,			10,		0,			'RESOURCE_ALUMINUM','TECH_ROBOTICS',			null,						1,				0,				0,			1,				1,			'DISTRICT_AERODROME',	0,			0),
 
 -- Naval Units
@@ -547,28 +456,6 @@ VALUES
 ('UNIT_COG',				3,			150,	'ADVISOR_CONQUEST',	3,				1,				'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',		'LOC_UNIT_COG_NAME',				'LOC_UNIT_COG_DESCRIPTION',					'YIELD_GOLD',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'PROMOTION_CLASS_NAVAL_MELEE',	2,				32,		0,				0,		0,			null,				'TECH_APPRENTICESHIP',		'TECH_CARTOGRAPHY',			0,				0,				0,			0,				0,			null,					1,			0),
 ('UNIT_MISSILE_FRIGATE',	5,			660,	'ADVISOR_CONQUEST',	3,				1,				'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',		'LOC_UNIT_MISSILE_FRIGATE_NAME',	'LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION',		'YIELD_GOLD',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'PROMOTION_CLASS_NAVAL_MELEE',	8,				90,		0,				0,		0,			'RESOURCE_OIL',		'TECH_ROBOTICS',			null,						1,				85,				0,			0,				0,			null,					1,			0);
 
--- R&F Compatibility
-INSERT INTO Units 
-(		UnitType, 					BaseMoves, 	Cost, 	AdvisorType, 		BaseSightRange, ZoneOfControl, 	Domain, 		FormationClass, 				Name,								Description, 								PurchaseYield,	PseudoYieldType,			PromotionClass,					Maintenance,	Combat,	RangedCombat,	Range,	Bombard,	StrategicResource,	PrereqTech,					MandatoryObsoleteTech,		CanTargetAir,	AntiAirCombat,	AirSlots,	IgnoreMoves,	Stackable,	PrereqDistrict,			CanCapture,	WMDCapable)
-SELECT 'UNIT_WECE_PIKE_AND_SHOT',	2,			250,	'ADVISOR_CONQUEST',	2,				1,				'DOMAIN_LAND',	'FORMATION_CLASS_LAND_COMBAT',	'LOC_UNIT_WECE_PIKE_AND_SHOT_NAME',	'LOC_UNIT_WECE_PIKE_AND_SHOT_DESCRIPTION',	'YIELD_GOLD',	null,						'PROMOTION_CLASS_ANTI_CAVALRY',	4,				52,		0,				0,		0,			null,				'TECH_GUNPOWDER',			'TECH_BALLISTICS',			0,				0,				0,			0,				0,			null,					1,			0
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
--- GS Compatibility
-INSERT INTO Units
-(		UnitType, 					BaseMoves, 	Cost, 	AdvisorType, 		BaseSightRange, ZoneOfControl, 	Domain, 		FormationClass, 				Name,								Description, 								PurchaseYield,	PseudoYieldType,			PromotionClass,					Maintenance,	Combat,	RangedCombat,	Range,	Bombard,	StrategicResource,	PrereqTech,					MandatoryObsoleteTech,		CanTargetAir,	AntiAirCombat,	AirSlots,	IgnoreMoves,	Stackable,	PrereqDistrict,			CanCapture,	WMDCapable)
-SELECT 'UNIT_EXPLORER',				3,			120,	'ADVISOR_CONQUEST',	2,				1,				'DOMAIN_LAND',	'FORMATION_CLASS_LAND_COMBAT',	'LOC_UNIT_EXPLORER_NAME',			'LOC_UNIT_EXPLORER_DESCRIPTION',			'YIELD_GOLD',	null,						'PROMOTION_CLASS_RECON',		3,				35,		0,				0,		0,			null,				'TECH_EDUCATION',			'TECH_RIFLING',				0,				0,				0,			0,				0,			null,					1,			0
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO Units
-(		UnitType, 					BaseMoves, 	Cost, 	AdvisorType, 		BaseSightRange, ZoneOfControl, 	Domain, 		FormationClass, 				Name,								Description, 								PurchaseYield,	PseudoYieldType,			PromotionClass,					Maintenance,	Combat,	RangedCombat,	Range,	Bombard,	StrategicResource,	PrereqTech,					MandatoryObsoleteTech,		CanTargetAir,	AntiAirCombat,	AirSlots,	IgnoreMoves,	Stackable,	PrereqDistrict,			CanCapture,	WMDCapable)
-SELECT	'UNIT_MEDIEVAL_HORSEMAN',	4,			170,	'ADVISOR_CONQUEST',	2,				1,				'DOMAIN_LAND',	'FORMATION_CLASS_LAND_COMBAT',	'LOC_UNIT_MEDIEVAL_HORSEMAN_NAME',	'LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION',	'YIELD_GOLD',	null,						'PROMOTION_CLASS_LIGHT_CAVALRY',2,				44,		0,				0,		0,			'RESOURCE_HORSES',	'TECH_STIRRUPS',			'TECH_METAL_CASTING',		0,				0,				0,			0,				0,			null,					1,			0
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO Units
-(		UnitType, 					BaseMoves, 	Cost, 	AdvisorType, 		BaseSightRange, ZoneOfControl, 	Domain, 		FormationClass, 				Name,								Description, 								PurchaseYield,	PseudoYieldType,			PromotionClass,					Maintenance,	Combat,	RangedCombat,	Range,	Bombard,	StrategicResource,	PrereqTech,					MandatoryObsoleteTech,		CanTargetAir,	AntiAirCombat,	AirSlots,	IgnoreMoves,	Stackable,	PrereqDistrict,			CanCapture,	WMDCapable)
-SELECT	'UNIT_DLV_CUIRASSIER',		4,			340,	'ADVISOR_CONQUEST',	2,				1,				'DOMAIN_LAND',	'FORMATION_CLASS_LAND_COMBAT',	'LOC_UNIT_DLV_CUIRASSIER_NAME',		'LOC_UNIT_DLV_CUIRASSIER_DESCRIPTION',		'YIELD_GOLD',	null,						'PROMOTION_CLASS_HEAVY_CAVALRY',5,				66,		0,				0,		0,			'RESOURCE_NITER',	'TECH_ECONOMICS',			'TECH_COMBUSTION',			0,				0,				0,			0,				0,			null,					1,			0
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
 
 -- # Units_XP2 #
 CREATE TABLE IF NOT EXISTS Units_XP2 (UnitType VARCHAR, ResourceMaintenanceAmount INTEGER, ResourceCost INTEGER, ResourceMaintenanceType VARCHAR, TourismBomb INTEGER, CanEarnExperience BOOLEAN, TourismBombPossible BOOLEAN, CanFormMilitaryFormation BOOLEAN, MajorCivOnly BOOLEAN);
@@ -593,7 +480,6 @@ VALUES
 ('UNIT_WW1_GROUND_ATTACK', 	1, 							1, 				'RESOURCE_OIL', 			0, 				1, 					0, 						0, 							0),
 ('UNIT_GROUND_ATTACK', 		1, 							1, 				'RESOURCE_ALUMINUM', 		0, 				1, 					0, 						0, 							0),
 ('UNIT_JET_GROUND_ATTACK', 	1, 							1, 				'RESOURCE_ALUMINUM', 		0, 				1, 					0, 						0, 							0),
---('UNIT_STEALTH_ATTACK',		1,							1, 				'RESOURCE_ALUMINUM', 		0, 				1, 					0, 						0, 							0),
 ('UNIT_UAV', 				1, 							1, 				'RESOURCE_ALUMINUM', 		0, 				1, 					0, 						0, 							0),
 ('UNIT_CORVETTE', 			0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0),
 ('UNIT_TORPEDO_GUNBOAT', 	1, 							1, 				'RESOURCE_COAL', 			0, 				1, 					0, 						1, 							0),
@@ -613,17 +499,6 @@ VALUES
 ('UNIT_RIFLEMAN', 			0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0),
 ('UNIT_LONGSWORDSMAN', 		0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0),
 ('UNIT_MISSILE_FRIGATE', 	1, 							1, 				'RESOURCE_OIL', 			0, 				1, 					0, 						1, 							0);
-
--- R&F Compatibility
-INSERT INTO Units_XP2
-(UnitType,						ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
-SELECT 	'UNIT_DLV_CUIRASSIER',	0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0 
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
-
-INSERT INTO Units_XP2
-(UnitType,							ResourceMaintenanceAmount, 	ResourceCost,	ResourceMaintenanceType, 	TourismBomb,	CanEarnExperience,	TourismBombPossible,	CanFormMilitaryFormation,	MajorCivOnly)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 	0, 							20, 			NULL, 						0, 				1, 					0, 						1, 							0
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN');
 
 
 -- # Unit Upgrades #
@@ -663,7 +538,6 @@ VALUES
 ('UNIT_JET_FIGHTER',		'UNIT_STEALTH_FIGHTER'),
 ('UNIT_WW1_GROUND_ATTACK',	'UNIT_GROUND_ATTACK'),
 ('UNIT_GROUND_ATTACK',		'UNIT_JET_GROUND_ATTACK'),
---('UNIT_JET_GROUND_ATTACK',	'UNIT_STEALTH_ATTACK'),
 
 -- Naval Units
 ('UNIT_COG',				'UNIT_CARAVEL'),
@@ -684,37 +558,11 @@ VALUES
 ('UNIT_INDUSTRIAL_MARINE',	'UNIT_WW2_MARINE'),
 ('UNIT_WW2_MARINE',			'UNIT_MODERN_MARINE');
 
--- R&F Compatibility
-INSERT INTO UnitUpgrades
-(		Unit,						UpgradeUnit)
-SELECT	'UNIT_WECE_PIKE_AND_SHOT',	'UNIT_LINE_INFANTRY'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_WECE_PIKE_AND_SHOT');
-
 -- GS Compatibility
-INSERT INTO UnitUpgrades
-(		Unit,						UpgradeUnit)
-SELECT	'UNIT_EXPLORER',			'UNIT_RANGER'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_EXPLORER');
-
-INSERT INTO UnitUpgrades
-(		Unit,						UpgradeUnit)
-SELECT	'UNIT_MEDIEVAL_HORSEMAN',	'UNIT_HARQUEBUSIER'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN');
-
-INSERT INTO UnitUpgrades
-(		Unit,						UpgradeUnit)
-SELECT	'UNIT_REITER',				'UNIT_DLV_CUIRASSIER'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
-
 INSERT INTO UnitUpgrades
 (		Unit,						UpgradeUnit)
 SELECT	'UNIT_REITER',				'UNIT_CUIRASSIER'
 WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
-INSERT INTO UnitUpgrades
-(		Unit,						UpgradeUnit)
-SELECT	'UNIT_DLV_CUIRASSIER',		'UNIT_LANDSHIP'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
 
 
 -- # Unit Replaces #
@@ -746,16 +594,10 @@ SELECT	'UNIT_MAPUCHE_MALON_RAIDER',	'UNIT_HARQUEBUSIER'
 WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MAPUCHE_MALON_RAIDER');
 
 -- GS Compatibility
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType,				ReplacesUnitType)
-SELECT	'UNIT_AMERICAN_ROUGH_RIDER',	'UNIT_DLV_CUIRASSIER'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
-
 INSERT INTO UnitReplaces 
 (		CivUniqueUnitType,				ReplacesUnitType)
 SELECT 	'UNIT_AMERICAN_ROUGH_RIDER', 	'UNIT_CUIRASSIER'
-WHERE NOT EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_AMERICAN_AH64_APACHE')
-AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
+WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
 
 
 -- # Technology Prereqs #
@@ -763,86 +605,3 @@ INSERT INTO TechnologyPrereqs
 (Technology,		PrereqTech)
 VALUES	
 ('TECH_ASTRONOMY',	'TECH_MASS_PRODUCTION');
-
-
--- ----------------------------------------------
--- # Steel & Thunder Unique Units Compatibility #
--- ----------------------------------------------
--- Unit Replaces
-INSERT INTO UnitReplaces 
-(		CivUniqueUnitType, 						ReplacesUnitType) 
-SELECT 	'UNIT_ARABIAN_GHAZI', 					'UNIT_LONGSWORDSMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_LONGSWORDSMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_ARABIAN_GHAZI');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT	'UNIT_RUSSIAN_DRUZHINA', 				'UNIT_MEDIEVAL_HORSEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_RUSSIAN_DRUZHINA');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_SPANISH_JINETE', 					'UNIT_MEDIEVAL_HORSEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SPANISH_JINETE');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_BRAZILIAN_FATHERLAND_VOLUNTEER', 	'UNIT_RIFLEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_RIFLEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_BRAZILIAN_FATHERLAND_VOLUNTEER');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_GREEK_ARMATOLOS', 				'UNIT_RIFLEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_RIFLEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_GREEK_ARMATOLOS');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_INDIAN_SEPOY', 					'UNIT_RIFLEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_RIFLEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_INDIAN_SEPOY');
-
--- Civilization & Scenario Pack Compatibility
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_PERSIAN_CATAPHRACT', 				'UNIT_ARMORED_HORSEMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_ARMORED_HORSEMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PERSIAN_CATAPHRACT');
-
--- R&F Compatibility
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_SCOTTISH_GALLOWGLASS', 			'UNIT_LONGSWORDSMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_LONGSWORDSMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SCOTTISH_GALLOWGLASS');
-
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_MONGOLIAN_HUI_HUI_PAO', 			'UNIT_TREBUCHET'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_TREBUCHET')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MONGOLIAN_HUI_HUI_PAO');
-
--- GS Compatibility
-INSERT INTO UnitReplaces
-(		CivUniqueUnitType, 						ReplacesUnitType)
-SELECT 	'UNIT_ELEANOR_TEMPLAR', 				'UNIT_LONGSWORDSMAN'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_LONGSWORDSMAN')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_ELEANOR_TEMPLAR');
-
-
--- # Unit Upgrades #
-INSERT INTO UnitUpgrades
-(		Unit, 									UpgradeUnit)
-SELECT 	'UNIT_JAPANESE_YAMATO', 				'UNIT_RAILGUN_WARSHIP'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_JAPANESE_YAMATO')
-AND   EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_RAILGUN_WARSHIP');
-
--- GS Compatibility
-INSERT INTO UnitUpgrades
-(		Unit, 									UpgradeUnit)
-SELECT	'UNIT_CANADA_HMCS_HAIDA', 				'UNIT_MISSILE_DESTROYER'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MISSILE_DESTROYER')
-AND	  EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CANADA_HMCS_HAIDA');
