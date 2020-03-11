@@ -17,14 +17,6 @@ This mod now no longer requires Deliverator's MOAR Units mod and it should be du
     <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="Moar Units" />
     <Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="Steel and Thunder: Unit Expansion" />
   </Blocks>
-  <FrontEndActions>
-    <UpdateText id="UpdateTesxt">
-      <Properties>
-        <LoadOrder>7</LoadOrder>
-      </Properties>
-      <File>Text/WarfafeExpanded_config.xml</File>
-    </UpdateText>
-  </FrontEndActions>
   <InGameActions>
     <UpdateArt id="Art">
       <File>Warfare Expanded Complete.dep</File>
@@ -5627,7 +5619,6 @@ This mod now no longer requires Deliverator's MOAR Units mod and it should be du
     <File>Text/ru_RU/WarfareExpanded_CivilopediaText.xml</File>
     <File>Text/ru_RU/WarfareExpanded_Text.xml</File>
     <File>Text/ru_RU/WarfareExpanded_Text_Changes.xml</File>
-    <File>Text/WarfafeExpanded_config.xml</File>
     <File>Text/zh_Hans_CN/WarfareExpanded_CivilopediaText_zh_Hans_CN.xml</File>
     <File>Text/zh_Hans_CN/WarfareExpanded_Text_Changes_zh_Hans_CN.xml</File>
     <File>Text/zh_Hans_CN/WarfareExpanded_Text_zh_Hans_CN.xml</File>
