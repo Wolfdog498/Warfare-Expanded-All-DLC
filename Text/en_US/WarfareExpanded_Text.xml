@@ -140,18 +140,6 @@
 		<Row Tag="LOC_UNIT_PELTAST_DESCRIPTION">
 			<Text>Classical era fire support unit.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_WECE_PIKE_AND_SHOT_NAME">
-			<Text>Pike and Shot</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_WECE_PIKE_AND_SHOT_DESCRIPTION">
-			<Text>Renaissance era melee unit that's effective against mounted units.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_EXPLORER_NAME">
-			<Text>Explorer</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
-			<Text>Fast-moving Renaissance Era Recon unit. Ignores rivers when moving and has no disembark cost.</Text>
-		</Row>
 		<Row Tag="LOC_UNIT_LONGSWORDSMAN_NAME">
 			<Text>Longswordsman</Text>
 		</Row>
@@ -169,18 +157,6 @@
 		</Row>
 		<Row Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
 			<Text>Medieval Era Siege unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME">
-			<Text>Courser</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION">
-			<Text>Medieval Era Light Cavalry unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_NAME">
-			<Text>Cuirassier</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_DLV_CUIRASSIER_DESCRIPTION">
-			<Text>Industrial Era Heavy Cavalry unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GATLING_GUN_NAME">
 			<Text>Gatling Gun</Text>
@@ -230,12 +206,6 @@
 		</Row>
 		<Row Tag="LOC_UNIT_JET_GROUND_ATTACK_DESCRIPTION">
 			<Text>Information era air ground-attack unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_STEALTH_ATTACK_NAME">
-			<Text>Stealth Ground-Attack</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_STEALTH_ATTACK_DESCRIPTION">
-			<Text>Strongest air ground-attack unit. Has stealth capability.</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_CLASS_AIR_ATTACK_NAME">
 			<Text>Air Ground-Attack</Text>
