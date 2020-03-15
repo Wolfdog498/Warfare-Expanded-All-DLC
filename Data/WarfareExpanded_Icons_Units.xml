@@ -46,7 +46,7 @@
 		<Row Name="ICON_UNIT_RIFLEMAN" 										Atlas="ICON_ATLAS_MISSING_UNITS" Index="1"/>
 		<Row Name="ICON_UNIT_TREBUCHET" 									Atlas="ICON_ATLAS_MISSING_UNITS" Index="24"/>
 		<Row Name="ICON_UNIT_GATLING_GUN" 									Atlas="ICON_ATLAS_MISSING_UNITS" Index="68"/>
-		<Row Name="UNIT_RECON_HELICOPTER" 									Atlas="ICON_ATLAS_MISSING_UNITS" Index="87"/>
+		<Row Name="ICON_UNIT_RECON_HELICOPTER" 									Atlas="ICON_ATLAS_MISSING_UNITS" Index="87"/>
 		<!-- Air Units -->
 		<Row Name="ICON_UNIT_WW1_BOMBER" 									Atlas="ICON_ATLAS_MISSING_UNITS" Index="39"/>
 		<Row Name="ICON_UNIT_STEALTH_BOMBER" 								Atlas="ICON_ATLAS_MISSING_UNITS" Index="47"/>
