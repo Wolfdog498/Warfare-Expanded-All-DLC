@@ -145,7 +145,7 @@ WHERE UnitType = 'UNIT_DRONE';
 UPDATE Units SET BaseMoves = 10, Range = 10, Combat = 115, RangedCombat = 105
 WHERE UnitType = 'UNIT_JET_FIGHTER';
 
-UPDATE Units SET BaseMoves = 4, Cost = 690, PromotionClass = 'PROMOTION_CLASS_NAVAL_BOMBARD', Range = 5, Combat = 90, Bombard = 100, RangedCombat = 0, AntiAirCombat = 88, PrereqTech = 'TECH_NUCLEAR_FUSION'
+UPDATE Units SET BaseMoves = 4, Cost = 690, PromotionClass = 'PROMOTION_CLASS_NAVAL_BOMBARD', Range = 4, Combat = 90, Bombard = 100, RangedCombat = 0, AntiAirCombat = 88, PrereqTech = 'TECH_NUCLEAR_FUSION'
 WHERE UnitType = 'UNIT_MISSILE_CRUISER';
 
 -- Civilization & Scenario Pack Compatibility
@@ -270,6 +270,9 @@ WHERE Unit = 'UNIT_SULEIMAN_JANISSARY';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_ANTI_TANK_RIFLE'
 WHERE Unit = 'UNIT_SWEDEN_CAROLEAN';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RECON_HELICOPTER'
+WHERE Unit = 'UNIT_OBSERVATION_BALLOON';
 
 -- Naval Units
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CORVETTE'
