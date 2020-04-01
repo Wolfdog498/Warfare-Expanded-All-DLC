@@ -31,6 +31,9 @@ WHERE UnitType = 'UNIT_CATAPULT';
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_EDUCATION'
 WHERE UnitType = 'UNIT_QUADRIREME';
 
+UPDATE Units SET PrereqTech = 'TECH_CONSTRUCTION'
+WHERE UnitType = 'UNIT_SIEGE_TOWER';
+
 -- Medieval Era
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_METAL_CASTING'
 WHERE UnitType = 'UNIT_KNIGHT';
