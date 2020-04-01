@@ -15,7 +15,7 @@ WHERE UnitType = 'UNIT_SPEARMAN';
 UPDATE Units SET BaseMoves = 3, StrategicResource= 'RESOURCE_HORSES', MandatoryObsoleteTech = 'TECH_HORSEBACK_RIDING'
 WHERE UnitType = 'UNIT_HEAVY_CHARIOT';
 
-UPDATE Units SET MandatoryObsoleteTech = 'TECH_APPRENTICESHIP'
+UPDATE Units SET MandatoryObsoleteTech = 'TECH_BUTTRESS'
 WHERE UnitType = 'UNIT_GALLEY';
 
 -- Classical Era
@@ -82,7 +82,7 @@ WHERE UnitType = 'UNIT_FIELD_CANNON';
 UPDATE Units SET BaseMoves = 4
 WHERE UnitType = 'UNIT_AMERICAN_ROUGH_RIDER';
 
-UPDATE Units SET Combat = 66
+UPDATE Units SET Combat = 66, PrereqTech = 'TECH_RIFLING'
 WHERE UnitType = 'UNIT_CUIRASSIER';
 
 -- Modern Era
