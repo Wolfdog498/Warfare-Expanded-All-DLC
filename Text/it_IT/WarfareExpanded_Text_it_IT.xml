@@ -60,13 +60,13 @@
 			<Text>Cannone pesante</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RIFLED_CANNON_DESCRIPTION" Language="it_IT">
-			<Text>Unita da bombardamento di epoca Industriale, ideale per attaccare le citta. Non puo muoversi e attaccare nello stesso turno a meno che non abbia acquisito la promozione Equipaggio Esperto.</Text>
+			<Text>Unita da bombardamento di epoca Industriale, ideale per attaccare le citta. Non puo muoversi e attaccare nello stesso turno a meno che non inizia il suo turno con più di 2 punti movimento (es. grande generale, logistica) o abbia acquisito la promozione Equipaggio Esperto. (o qualunque momento in cui il movimento viene aumentato, per esempio se inizia con movimento 2, si muove, ed entra nel raggio di un grande generale oppure gode del vantaggio logistica, allora può bombardare.)</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEAVY_HOWITZER_NAME" Language="it_IT">
 			<Text>Obice Pesante</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEAVY_HOWITZER_DESCRIPTION" Language="it_IT">
-			<Text>Unita da bombardamento di epoca Atomica, ideale per attaccare le citta. Non puo muoversi e attaccare nello stesso turno a meno che non abbia acquisito la promozione Equipaggio esperto.</Text>
+			<Text>Unita da bombardamento di epoca Atomica, ideale per attaccare le citta. Non puo muoversi e attaccare nello stesso turno a meno che non inizia il suo turno con più di 3 punti movimento (es. grande generale, logistica) o abbia acquisito la promozione Equipaggio Esperto. (o qualunque momento in cui il movimento viene aumentato, per esempio se inizia con movimento 3, si muove, ed entra nel raggio di un grande generale oppure gode del vantaggio logistica, allora può bombardare.)</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINE_INFANTRY_NAME" Language="it_IT">
 			<Text>Fanteria di Linea</Text>
@@ -140,11 +140,35 @@
 		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="it_IT">
 			<Text>Unita di tiro di supporto di epoca Classica.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_WECE_PIKE_AND_SHOT_NAME" Language="it_IT">
-			<Text>Picca e Moschetto</Text>
+		<Replace Tag="LOC_UNIT_LONGSWORDSMAN_NAME" Language="it_IT">
+			<Text>Spadaccino con Spada Lunga</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_WECE_PIKE_AND_SHOT_DESCRIPTION" Language="it_IT">
-			<Text>Unita anti-cavalleria di epoca Rinascimentale.</Text>
+		<Replace Tag="LOC_UNIT_LONGSWORDSMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unita da mischia di epoca Medievale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RIFLEMAN_NAME" Language="it_IT">
+			<Text>Fuciliere</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unita da mischia di epoca Industriale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_NAME" Language="it_IT">
+			<Text>Trabucco</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="it_IT">
+			<Text>Unita da bombardamento di epoca Medievale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="it_IT">
+			<Text>Mitragliatrice Gatling</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="it_IT">
+			<Text>Unita di tiro di supporto di epoca Industriale. Ha un Bonus [ICON_Strength] Forza di Combattimento contro unita da Mischia, Anti-Cavalleria e Cavalleria Leggera. Non puo muoversi e attaccare nello stesso turno a meno che non abbia la promozione Fuoco e Manovra.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_HELICOPTER_NAME" Language="it_IT">
+			<Text>Elicottero da Osservazione</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_HELICOPTER_DESCRIPTION" Language="it_IT">
+			<Text>Unita di supporto di epoca Atomica. Aggiunge +1 [ICON_Range] al Raggio e +5 [ICON_Bombard] Forza di Bombardamento a tutte le unita d'assedio adiacenti.</Text>
 		</Replace>
 		<!-- Air Units -->
 		<Replace Tag="LOC_UNIT_WW1_BOMBER_NAME" Language="it_IT">
@@ -182,12 +206,6 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_JET_GROUND_ATTACK_DESCRIPTION" Language="it_IT">
 			<Text>Unita di Caccia-Bombardiere dell'epoca dell'Informazione.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_STEALTH_ATTACK_NAME" Language="it_IT">
-			<Text>Caccia-Bombardiere Stealth</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_STEALTH_ATTACK_DESCRIPTION" Language="it_IT">
-			<Text>Unita di Caccia-Bombardiere di epoca Futura con capacita stealth.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_AIR_ATTACK_NAME" Language="it_IT">
 			<Text>Attacco Aria-Terra</Text>
@@ -257,10 +275,10 @@
 			<Text>Cacciatorpediniere Lancia Missili</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MISSILE_DESTROYER_DESCRIPTION" Language="it_IT">
-			<Text>La piu forte unita navale da mischia di epoca dell'Informazione. Rivela i sottomarini all'interno del suo raggio di visione.</Text>
+			<Text>La piu forte unita navale che attacca a distanza di epoca dell'Informazione. Fornisce copertura dagli attacchi aerei e nucleari fino ad una distanza di 1 casella.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SUPERCARRIER_NAME" Language="it_IT">
-			<Text>SuperPortaaereiu</Text>
+			<Text>SuperPortaerei</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SUPERCARRIER_DESCRIPTION" Language="it_IT">
 			<Text>Unita navale da mischia di epoca dell'Informazione che puo trasportare unita aeree.</Text>
@@ -475,54 +493,17 @@
 		<Replace Tag="LOC_UNIT_RAILGUN_WARSHIP_DESCRIPTION" Language="it_IT">
 			<Text>Unita navale da bombardamento dell'epoca dell'Informazione.</Text>
 		</Replace>
-		<!-- Deliverator's Units -->
-		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="it_IT">
-			<Text>Esploratore</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_EXPLORER_DESCRIPTION" Language="it_IT">
-			<Text>Unita da ricognizione di epoca Rinascimentale, dal movimento veloce. Ignora i fiumi quando si muove e non ha un costo per sbarcare.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_LONGSWORDSMAN_NAME" Language="it_IT">
-			<Text>Spadaccino con Spada Lunga</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_LONGSWORDSMAN_DESCRIPTION" Language="it_IT">
-			<Text>Unita da mischia di epoca Medievale.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_RIFLEMAN_NAME" Language="it_IT">
-			<Text>Fuciliere</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION" Language="it_IT">
-			<Text>Unita da mischia di epoca Industriale.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_TREBUCHET_NAME" Language="it_IT">
-			<Text>Trabucco</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="it_IT">
-			<Text>Unita da bombardamento di epoca Medievale.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME" Language="it_IT">
-			<Text>Corsiero</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="it_IT">
-			<Text>Unita di cavalleria leggera di epoca Medievale.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_DLV_CUIRASSIER_NAME" Language="it_IT">
-			<Text>Corazziere</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_DLV_CUIRASSIER_DESCRIPTION" Language="it_IT">
-			<Text>Unita di cavalleria pesante di epoca Industriale.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="it_IT">
-			<Text>Mitragliatrice Gatling</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="it_IT">
-			<Text>Unita di tiro di supporto di epoca Industriale. Ha un Bonus [ICON_Strength] Forza di Combattimento contro unita da Mischia, Anti-Cavalleria e Cavalleria Leggera. Non puo muoversi e attaccare nello stesso turno a meno che non abbia la promozione Fuoco e Manovra.</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_COG_NAME" Language="it_IT">
 			<Text>Cog</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_COG_DESCRIPTION" Language="it_IT">
 			<Text>Unita navale da mischia di epoca Medievale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_FRIGATE_NAME" Language="it_IT">
+			<Text>Fregata Lancia-Missili</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION" Language="it_IT">
+			<Text>La più forte unita navale da mischia di epoca dell'Informazione. Rivela i sottomarini all'interno del suo raggio di visione.</Text>
 		</Replace>
 		<!-- Created by Laurana Kanan for LKs Units (18.02.10) -->
 		<!-- New promotion class for Steel & Thunder Automatic Guns -->
