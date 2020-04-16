@@ -332,19 +332,79 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_5" Language="it_IT">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WECE_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>Picca e Moschetto è una formazione di combattimento di fanteria storica che si è evoluta durante le guerre italiane prima dell'evoluzione della baionetta del tardo XVII secolo. Le formazioni di fanteria del periodo erano un mix di picca e armi da fuoco precoci ("spari"), sia archibugieri che moschettieri. All'inizio, questa formazione di fanteria mista fu definita colunella ("colonelcy"), ed era comandata da un colonnello. E' una formazione di uomini compatti intervallati da unità armate di picche con unità più libere armate con armi da fuoco, inizialmente l'archibugio.</Text>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>La spada lunga era l'arma più versatile nei campi di battaglia del Medioevo/Rinascimento. Era più leggera e più facile da trasportare di una picca, e poteva essere usata a una o due mani, rendendo possibile che lo spadaccino portasse anche uno scudo. Nel combattimento faccia a faccia contro i picchieri, i spadaccini con spada lunga erano in uno svantaggio significativo, subivano molte perdite dalle armi più lunghe prima che potessero arrivare a breve distanza. Tuttavia, le unità degli spadaccini erano più veloci e più manovrabili dei picchieri - e se potevano colpire i loro avversari in un attacco di fianco, i picchieri erano carne morta.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WECE_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WECE_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WECE_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WECE_PIKE_AND_SHOT_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>Un fucile è un'arma da fuoco progettata per essere sparata dalla spalla. L'interno della canna ha delle scanalature "rigate" progettate per far ruotare su stesso il proiettile mentre viene sparato, dandogli una maggiore distanza di tiro e precisione rispetto a un proiettile sparato da un fucile non rigato. I primi fucili con rigatura in Europa apparvero nel XV secolo, ma le difficoltà di fabbricazione non lo resero standard fino al 19°. I coloni americani usarono i fucili nella guerra d'indipendenza americana. Gli schermagliatori e gli esploratori britannici e americani erano equipaggiati con fucili a moschetto durante le guerre napoleoniche e la guerra del 1812, ma il tempo di caricamento più lento delle armi li tenne fuori dalla portata della fanteria regolare per alcuni anni ancora.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text>L'invenzione della "minie ball" (Pallottola) ridusse notevolmente il tempo di caricamento, e dalla guerra civile americana, i fucili a moschetto furono utilizzati in tutti i principali eserciti europei. Alla fine della Guerra Civile il moschetto rigato fu reso obsoleto dal fucile a ripetizione che si caricava dalla culatta, che aveva un tasso di fuoco pari ad un colpo al secondo (veloce quanto il tempo di armare il cane e premere il grilletto), rispetto al tasso di fuoco del fucile ad avancarica che era di 20-30 secondi per colpo per un soldato ben addestrato.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>Il trabucco era una macchina composta che sfruttava il vantaggio meccanico di una leva per lanciare un proiettile. Generalmente erano costruzioni di grandi dimensioni (fino a 30 metri [100 piedi] di altezza o più) realizzate principalmente in legno, generalmente rinforzate con metallo, pelle, corda e altri materiali. Solitamente erano immobili e dovevano essere assemblati in loco, probabilmente facendo uso del legname locale con le sole parti chiave portate dall'esercito sul luogo dell'assedio o della battaglia. Il più recente trabucco a contrappeso, noto anche come contrappeso a trabucco, utilizzava un contrappeso per oscillare il braccio. Apparve in entrambe le terre Cristiane e Musulmane attorno al Mediterraneo nel 12° secolo, e riapparve nella Cina attraverso le conquiste Mongole nel 13° secolo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>La mitragliatrice Gatling è una delle più conosciute e migliori armi a manovella da fuoco rapido con caricamento a molla, è la precursora della moderna mitragliatrice. Inventata da Richard Gatling, è nota per il suo uso da parte delle forze dell'Unione durante la guerra civile americana nel 1860, che fu la prima volta che venne impiegata in combattimento. Più tardi, fu usata di nuovo in numerosi conflitti militari, come la Guerra Boshin, la Guerra Anglo-Zulu e l'assalto alla collina di San Juan durante la guerra Ispano-Americana. Fu anche usata dalle milizie e dalla Guardia Nazionale negli episodi del Grande Sciopero Ferroviario del 1877, in particolare a Pittsburgh, in Pennsylvania.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text>Il funzionamento della mitragliatrice Gatling era centrata su un sistema ciclico a più canne che facilitava il raffreddamento e sincronizzava la sequenza di ricarica. Ogni canna sparava un singolo colpo quando raggiungeva un certo punto nel ciclo, dopo di che espelleva la cartuccia esaurita, caricava un nuovo colpo e, nel processo, permetteva alla canna di raffreddarsi leggermente. Questa configurazione consentiva di ottenere tassi di fuoco più elevati senza che le canne si surriscaldassero.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_HELICOPTER_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>I primi aerei da ricognizione e di osservazione erano palloni aereostatici, furono seguiti da aerei leggeri, come il Taylorcraft L-2 e Fieseler Fi 156. Quando furono sviluppati i primi elicotteri militari, la loro capacita di manovrare e rimanere in una posizione sospesa, li rese ideali per la ricognizione. Inizialmente i primi elicotteri da osservazione erano limitati solo all'osservazione visiva da parte dell'equipaggio, la maggior parte degli elicottteri presentava abitacoli arrotondati e quasi completamente ben vetrati per ottenere la massima visibilita. Con il passare del tempo l'occhio umano è stato integrato da sistemi di sensori ottici. Oggi includono anche televisori ad intensificatori di luminosità o telecamere ad infrarossi. Spesso queste ultime sono montate su supporti stabilizzati con laser multifunzione in grado di fungere da telemetro laser o designatori per il targeting dei sistemi di armi.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_HELICOPTER_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text>Per la natura delle sue missioni, le armi principali di un elicottero da osservazione sono le apparecchiature di sensori e di comunicazione. I primi elicotteri da osservazione furono usati efficacemente per chiedere il fuoco di attacchi aerei o di artiglieria. Con le moderne apparecchiature di sensori, sono anche in grado di fornire la guida di sistemi ATGW, come bombe a guida laser e altri missili e munizioni lanciati da altri velivoli armati. In alcuni casi gli elicotteri da osservazione possono anche essere armati con varie combinazioni di cannoni e missili, talvolta anche missili guidati anticarro o missili aria-aria, ma in quantita inferiori rispetto agli elicotteri d'attacco piu grandi. In primo luogo queste armi erano destinate per la lotta contro i mezzi da ricognizione - per eliminare i veicoli usati dal nemico per la ricongizione - ma potevano anche essere usati per fornire un supporto limitato al fuoco diretto o di supporto per attacchi aerei ravvicinati.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_HELICOPTER_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_HELICOPTER_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_HELICOPTER_CHAPTER_HISTORY_PARA_5" Language="it_IT">
 			<Text />
 		</Replace>
 		<!-- Air Units -->
@@ -379,10 +439,10 @@
 			<Text />
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>Il Sukhoi Su-57 (russo: Сухой Су-57) è la denominazione destinata a un jet da combattimento multiruolo jet di quinta generazione, a doppio sedile, progettato per la superiorità aerea e le operazioni di attacco. L'aereo è il prodotto del PAK FA (russo: ПАК ФА, russo: Перспективный авиационный комплекс фронтовой авиации, Perspektivny Aviatsionny Kompleks Frontovoy Aviatsii, letteralmente "Prospective Aviation Complex of Frontline Aviation"), un programma di caccia di quinta generazione della Russian Air Force. Il nome interno di Sukhoi per l'aereo è T-50. Il Su-57 sarà il primo aereo nel servizio militare russo ad utilizzare la tecnologia stealth. Si prevede che il caccia disporrà di supercruise, stealth, supermanovrabilità e avionica avanzata per superare gli aerei da caccia della generazione precedente e le difese di terra e marittime.</Text>
+			<Text>I caccia jet della quinta generazione sono una classificazione dei caccia da combattimento utilizzati in tutto il mondo, questo comprende tutte le tecnologie di combattimento sviluppate durante la prima parte del 21° secolo. A partire dal 2020 questi sono gli aerei più avanzati. Le caratteristiche di questi caccia jet di quinta generazione sono pero controverse e vaghe, la Lockheed Martin definisce, questi caccia, con la funzione "stealth", anche se pesantemente armati hanno probabilità molto basse nell'essere intercettate dai radar (LIPR), oltretutto le strutture di questi aerei sono ad elevate prestazione, avanzate funzionalita avioniche e sistemi informatici altamente integrati in grado di collegarsi attraverso la rete con altri sistemi sul campo di battaglia, in modo da avere la consapevolezza della situazione.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text />
+			<Text>Nel dicembre 2018, i caccia di quinta generazione pronti per il combattimento sono il Lockheed Martin F-22 Raptor, entrato in servizio con l'Aeronautica degli Stati Uniti nel 2005; il Lockheed Martin F-35 Lightning II, entrato in servizio nel 2015; e il Chengdu J-20, che è entrato in servizio con la People's Liberation Army Air Force (PLAAF) nel settembre del 2017. Lo Shenyang FC-31 ha avuto il primo test di volo con la versione 3.0 nel 2017. L'HAL AMCA, Mitsubishi X-2 Shinshin, TAI TF-X e il progetto pakistano Azm MALE UAV che sono in fase iniziale di sviluppo. Per finire abbiamo il Sukhoi Su-57 che è previsto per la consegna all'Aeronautica Russa nel 2020.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_3" Language="it_IT">
 			<Text />
@@ -436,21 +496,6 @@
 			<Text />
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>La Lockheed Martin F-35 Lightning II è una famiglia di caccia multiruolo stealth single-single, monomotore, per tutti climi. L'aereo da combattimento di quinta generazione è progettato per eseguire missioni di attacco al suolo e di superiorità aerea. Ha tre modelli principali: la variante di decollo e atterraggio convenzionale F-35A (CTOL), la variante F-35B di decollo corto e atterraggio verticale (STOVL), e il Catapult Assisted Take-Off basato per la portaerei F-35C, con Variante Recupero Arrestato (CATOBAR). Il 31 luglio 2015, i Marines degli Stati Uniti hanno dichiarato di essere pronti a schierare il primo squadrone di caccia F-35B dopo test intensivi. Il 2 agosto 2016, l'U.S. Air Force ha dichiarato che il suo primo squadrone di caccia F-35A sono pronti al combattimento.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_5" Language="it_IT">
 			<Text />
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_1" Language="it_IT">
@@ -859,112 +904,6 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RAILGUN_WARSHIP_CHAPTER_HISTORY_PARA_5" Language="it_IT">
 			<Text />
 		</Replace>
-		<!-- Deliverator's Units -->
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>L'età della scoperta o l'età dell'esplorazione dalla fine del XV secolo al XVIII secolo, fu un periodo storico europeo informale e vagamente definito che segna il periodo di tempo nel quale la vasta esplorazione oltreoceano è risultato come un potente fattore nella cultura europea e l'inizio della globalizzazione. Inoltre segna l'ascesa del periodo di diffusa adozione in Europa del colonialismo e del mercantilismo. Molte terre precedentemente sconosciute agli europei furono scoperte durante questo periodo, sebbene la maggior parte lo fosse già abitata dal punto di vista di molti non europei, l'eta della scoperta ha segnato l'arrivo di coloni e invasori da un continente precedentemente sconosciuto.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text>L'esplorazione globale è iniziata con le scoperte portoghesi nell'Atlantico degli arcipelaghi di Madeira e delle Azzorre, la costa africana e la scoperta della rotta marittima verso l'India 1498; e, a nome della Corona di Castiglia (Spagna), i viaggi transatlantici di Cristoforo Colombo tra il 1492 e il 1502 e la prima circumnavigazione del globo nel 1519-1522. Queste scoperte hanno portato a numerose spedizioni navali attraverso gli oceani Atlantico, Indiano e Pacifico e spedizioni terrestri nelle Americhe, Asia, Africa e Australia e continuarono fino alla fine del XIX secolo e finirono con l'esplorazione delle regioni polari nel 20° secolo.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>La spada lunga era l'arma più versatile nei campi di battaglia del Medioevo/Rinascimento. Era più leggera e più facile da trasportare di una picca, e poteva essere usata a una o due mani, rendendo possibile che lo spadaccino portasse anche uno scudo. Nel combattimento faccia a faccia contro i picchieri, i spadaccini con spada lunga erano in uno svantaggio significativo, subivano molte perdite dalle armi più lunghe prima che potessero arrivare a breve distanza. Tuttavia, le unità degli spadaccini erano più veloci e più manovrabili dei picchieri - e se potevano colpire i loro avversari in un attacco di fianco, i picchieri erano carne morta.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>Un fucile è un'arma da fuoco progettata per essere sparata dalla spalla. L'interno della canna ha delle scanalature "rigate" progettate per far ruotare su stesso il proiettile mentre viene sparato, dandogli una maggiore distanza di tiro e precisione rispetto a un proiettile sparato da un fucile non rigato. I primi fucili con rigatura in Europa apparvero nel XV secolo, ma le difficoltà di fabbricazione non lo resero standard fino al 19°. I coloni americani usarono i fucili nella guerra d'indipendenza americana. Gli schermagliatori e gli esploratori britannici e americani erano equipaggiati con fucili a moschetto durante le guerre napoleoniche e la guerra del 1812, ma il tempo di caricamento più lento delle armi li tenne fuori dalla portata della fanteria regolare per alcuni anni ancora.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text>L'invenzione della "minie ball" (Pallottola) ridusse notevolmente il tempo di caricamento, e dalla guerra civile americana, i fucili a moschetto furono utilizzati in tutti i principali eserciti europei. Alla fine della Guerra Civile il moschetto rigato fu reso obsoleto dal fucile a ripetizione che si caricava dalla culatta, che aveva un tasso di fuoco pari ad un colpo al secondo (veloce quanto il tempo di armare il cane e premere il grilletto), rispetto al tasso di fuoco del fucile ad avancarica che era di 20-30 secondi per colpo per un soldato ben addestrato.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>Il trabucco era una macchina composta che sfruttava il vantaggio meccanico di una leva per lanciare un proiettile. Generalmente erano costruzioni di grandi dimensioni (fino a 30 metri [100 piedi] di altezza o più) realizzate principalmente in legno, generalmente rinforzate con metallo, pelle, corda e altri materiali. Solitamente erano immobili e dovevano essere assemblati in loco, probabilmente facendo uso del legname locale con le sole parti chiave portate dall'esercito sul luogo dell'assedio o della battaglia. Il più recente trabucco a contrappeso, noto anche come contrappeso a trabucco, utilizzava un contrappeso per oscillare il braccio. Apparve in entrambe le terre Cristiane e Musulmane attorno al Mediterraneo nel 12° secolo, e riapparve nella Cina attraverso le conquiste Mongole nel 13° secolo.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TREBUCHET_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>Gli storici differiscono sull'origine del ferro di cavallo. Poiché il ferro era un bene prezioso e qualsiasi oggetto logorato veniva generalmente riforgiato e riutilizzato, è difficile individuare evidenti prove archeologiche. Anche se alcuni danno credito ai Druidi, non ci sono prove concrete a supporto di questa affermazione. Nel 1897 in una tomba etrusca datata intorno al 400 a.C., sono stati rinvenuti quattro ferri di cavallo di bronzo con quelli che apparentemente sembrano i fori dei chiodi. L'affermazione di alcuni storici secondo cui i Romani inventarono le "scarpe da mulo" intorno al 100 aC è sostenuta da un riferimento di Catullo morto nel 54 aC. Tuttavia, questi riferimenti all'uso di ferri di cavallo e "scarpe da mulo" a Roma, potrebbero essere stati i citati stivali di pelle rinforzati da piastre di ferro detti "Ipposandali", piuttosto che da ferri di cavallo inchiodati.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text>I riferimenti esistenti al ferro di cavallo inchiodato sono relativamente recenti, noti per la prima volta intorno al 900 d.C., ma potrebbero esserci stati usi precedenti dato che alcuni sono stati trovati in strati più profondi. Non ci sono però riferimenti esistenti ai ferri di cavallo inchiodati prima del regno dell'Imperatore Leone VI e dal 973 dc si possono trovare solo riferimenti occasionali. Esistono pochissime prove di qualsiasi tipo che suggeriscono l'esistenza di scarpe con chiodi prima del 500 d.C. o del 600, sebbene ci sia una scoperta datata al V secolo dC di un ferro di cavallo, completo di chiodi, trovato nella tomba di Childerico I Re dei Franchi a Tournai, in Belgio.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text>Intorno al 1000 d.C., il ferro di cavallo fuso in bronzo con i fori dei chiodi divenne comune in Europa. La forma era simile con un bordo esterno smerlato e sei fori per i chiodi. Il 13° e il 14° secolo portarono alla diffusa produzione di ferri di cavallo in ferro. Al tempo delle Crociate (1096-1270), i ferri di cavallo erano diffusi e frequentemente menzionati in varie fonti scritte. In quel periodo, a causa del valore del ferro, i ferri di cavallo venivano persino accettati al posto delle monete per pagare le tasse. Dal 13° secolo, i ferri di cavallo furono forgiati in grandi quantità e potevano essere acquistate già-pronti. La ferratura a caldo, è un processo nel modellare il ferro di cavallo riscaldato immediatamente prima di metterlo sul cavallo, divenne comune nel 16° secolo. Per la enorme richiesta di ferri di cavallo, il mestiere del fabbro divenne "uno dei più grandi mestieri del periodo medievale e moderno e contribuì allo sviluppo della metallurgia."</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DLV_CUIRASSIER_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>I corazzieri erano cavalieri equipaggiati con armature e armi da fuoco, che apparvero per la prima volta nell'Europa nel tardo XV secolo. Questo termine francese significa "uno con una corazza", il Pettorale che indossavano. I primi corazzieri furono prodotti come evoluzione alla cavalleria corazzata, come l'armigero e il semi-lanciere, scartando le loro lance e adottando l'uso delle pistole come arma principale. Nel tardo 17° secolo, il corazziere perse anche le protezioni degli arti e successivamente impiegò solo il pettorale (corazza frontale e corazza posteriore), e qualche volta usava un elmo. In quel periodo, la spada era l'arma principale del corazziere e le pistole venivano relegate in una funzione secondaria.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DLV_CUIRASSIER_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DLV_CUIRASSIER_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DLV_CUIRASSIER_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DLV_CUIRASSIER_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1" Language="it_IT">
-			<Text>La mitragliatrice Gatling è una delle più conosciute e migliori armi a manovella da fuoco rapido con caricamento a molla, è la precursora della moderna mitragliatrice. Inventata da Richard Gatling, è nota per il suo uso da parte delle forze dell'Unione durante la guerra civile americana nel 1860, che fu la prima volta che venne impiegata in combattimento. Più tardi, fu usata di nuovo in numerosi conflitti militari, come la Guerra Boshin, la Guerra Anglo-Zulu e l'assalto alla collina di San Juan durante la guerra Ispano-Americana. Fu anche usata dalle milizie e dalla Guardia Nazionale negli episodi del Grande Sciopero Ferroviario del 1877, in particolare a Pittsburgh, in Pennsylvania.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_2" Language="it_IT">
-			<Text>Il funzionamento della mitragliatrice Gatling era centrata su un sistema ciclico a più canne che facilitava il raffreddamento e sincronizzava la sequenza di ricarica. Ogni canna sparava un singolo colpo quando raggiungeva un certo punto nel ciclo, dopo di che espelleva la cartuccia esaurita, caricava un nuovo colpo e, nel processo, permetteva alla canna di raffreddarsi leggermente. Questa configurazione consentiva di ottenere tassi di fuoco più elevati senza che le canne si surriscaldassero.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_3" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_4" Language="it_IT">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_5" Language="it_IT">
-			<Text />
-		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COG_CHAPTER_HISTORY_PARA_1" Language="it_IT">
 			<Text>Il Cog era un tipo di nave che apparve per la prima volta nel X secolo e fu ampiamente utilizzata dal 12° secolo in poi. I Cog erano costruiti in legno residuo, generalmente di quercia, che era un abbondante legname nella regione baltica della Prussia. Questa nave era equipaggiata con un solo albero e una vela singola quadra. Queste navi erano per lo più associate al commercio marittimo nell'Europa medievale, in particolare alla Lega anseatica, specialmente nella regione del Mar Baltico. Hanno una lunghezza compresa tra circa 15 e 25 metri (da 49 a 82 piedi) con un raggio di 5-8 metri (16 e 26 piedi), e le più grandi navi a cremagliera potevano trasportare fino a circa 200 tonnellate.</Text>
 		</Replace>
@@ -978,6 +917,22 @@
 			<Text />
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COG_CHAPTER_HISTORY_PARA_5" Language="it_IT">
+			<Text />
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_FRIGATE_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>L'introduzione dei missili terra-aria dopo la Seconda Guerra Mondiale rese le navi piccole relativamente più efficaci per la guerra antiaerea: la cosidetta "Fregata lancia-missili". Nell'USN queste navi furono chiamate "Scorte Oceancihe" e designate con la dicitura "DE" o "DEG" fino al 1975 - un'evoluzione dei cacciatorpediniere di scorta della Seconda Guerra Mondiale o "DE". La Royal Canadian Navy e la Royal Navy Britannica mantennero l'uso del termine "Fregata"; allo stesso modo, la Marina Francese si riferisce alle navi di classe incrociatore equipaggiate con missili (classi Suffren, Tourville e Horizon) con il nome di "Fregate", mentre per le navi più piccole queste vengono chiamate "Aviso". La Marina Sovietica invece usa il termine "Nave da Guardia" (сторожевой корабль).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_FRIGATE_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_FRIGATE_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_FRIGATE_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text />
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_FRIGATE_CHAPTER_HISTORY_PARA_5" Language="it_IT">
 			<Text />
 		</Replace>
 	</LocalizedText>
