@@ -92,12 +92,6 @@
 		<Replace Tag="LOC_UNIT_FIELD_ARTILLERY_DESCRIPTION" Language="zh_Hans_HK">
 			<Text>信息時代遠程單位。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_NAME" Language="zh_Hans_HK">
-			<Text>火繩槍騎兵</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_DESCRIPTION" Language="zh_Hans_HK">
-			<Text>快速移動的文藝複興時代輕騎兵單位。</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_MODERN_INFANTRY_NAME" Language="zh_Hans_HK">
 			<Text>先進步兵</Text>
 		</Replace>
