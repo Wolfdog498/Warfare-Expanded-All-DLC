@@ -1,1 +1,1 @@
-# Warfare-Expanded-All-DLC
+# Warfare Expanded: Reloaded
