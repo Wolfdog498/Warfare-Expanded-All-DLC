@@ -62,6 +62,12 @@
 		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION">
 			<Text>Information era support unit. Adds +1 [ICON_Range] Range and +5 [ICON_Bombard] Bombard Strength to Siege class units within 1 hex.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_PIKEMAN_NAME">
+			<Text>Billman</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PIKE_AND_SHOT_NAME">
+			<Text>Pikeman</Text>
+		</Replace>
 		<!-- Air Units -->
 		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION">
 			<Text>Atomic era Early Bomber upgrade.</Text>
