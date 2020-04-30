@@ -1,4 +1,6 @@
--- # Units Changes #
+-------------------
+-- Units Changes --
+-------------------
 -- Ancient Era
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_IRON_WORKING'
 WHERE UnitType = 'UNIT_WARRIOR';
@@ -158,16 +160,18 @@ WHERE UnitType = 'UNIT_DIGGER' AND EXISTS (SELECT UnitType FROM Units WHERE Unit
 UPDATE Units SET Cost = 120, Combat = 40, MandatoryObsoleteTech = 'TECH_METAL_CASTING'
 WHERE UnitType = 'UNIT_MACEDONIAN_HETAIROI' AND EXISTS (SELECT UnitType FROM Units WHERE UnitType = 'UNIT_MACEDONIAN_HETAIROI');
 
-
--- # Units_XP2 Changes #
+-----------------------
+-- Units_XP2 Changes --
+-----------------------
 UPDATE Units_XP2 SET ResourceMaintenanceType = 'RESOURCE_OIL'
 WHERE UnitType ='UNIT_BATTLESHIP';
 
 UPDATE Units_XP2 SET ResourceMaintenanceType = 'RESOURCE_IRON'
 WHERE UnitType = 'UNIT_ARTILLERY';
 
-
--- # Unit Upgrades Changes #
+---------------------------
+-- Unit Upgrades Changes --
+---------------------------
 -- Land Units
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_WW1_INFANTRY'
 WHERE Unit = 'UNIT_ENGLISH_REDCOAT';
@@ -256,7 +260,7 @@ WHERE Unit = 'UNIT_MAPUCHE_MALON_RAIDER';
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN'
 WHERE Unit = 'UNIT_GEORGIAN_KHEVSURETI';
 
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_HARQUEBUSIER'
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_STRADIOT'
 WHERE Unit = 'UNIT_COURSER';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_LANDSHIP'
@@ -327,8 +331,9 @@ WHERE Unit = 'UNIT_MACEDONIAN_HETAIROI' AND EXISTS (SELECT UnitType FROM Units W
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_LONGSWORDSMAN'
 WHERE Unit = 'UNIT_MACEDONIAN_HYPASPIST' AND EXISTS (SELECT UnitType FROM Units WHERE UnitType = 'UNIT_MACEDONIAN_HYPASPIST');
 
-
--- # UnitReplaces #
+------------------
+-- UnitReplaces --
+------------------
 UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_DREADNOUGHT'
 WHERE CivUniqueUnitType = 'UNIT_BRAZILIAN_MINAS_GERAES';
 
@@ -345,8 +350,9 @@ WHERE CivUniqueUnitType = 'UNIT_DIGGER' AND EXISTS (SELECT 1 FROM Units WHERE Un
 UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_ARMORED_HORSEMAN'
 WHERE CivUniqueUnitType = 'UNIT_MACEDONIAN_HETAIROI' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MACEDONIAN_HETAIROI');
 
-
--- # Unit Promotions #
+---------------------
+-- Unit Promotions --
+---------------------
 UPDATE UnitPromotions SET PromotionClass = 'PROMOTION_CLASS_AIR_ATTACK'
 WHERE UnitPromotionType = 'PROMOTION_CLOSE_AIR_SUPPORT';
 
@@ -356,191 +362,8 @@ WHERE UnitPromotionType = 'PROMOTION_TORPEDO_BOMBER';
 UPDATE UnitPromotions SET PromotionClass = 'PROMOTION_CLASS_AIR_ATTACK'
 WHERE UnitPromotionType = 'PROMOTION_TANK_BUSTER';
 
-
--- # Tech Boost Changes #
+------------------------
+-- Tech Boost Changes --
+------------------------
 UPDATE Boosts SET TriggerDescription = 'LOC_BOOST_TRIGGER_BOWMAN', TriggerLongDescription = 'LOC_BOOST_TRIGGER_LONGDESC_BOWMAN', Unit1Type = 'UNIT_COMPOSITE_BOWMAN' 
 WHERE TechnologyType = 'TECH_MACHINERY';
-
-
--- -----------------------
--- # Barbarian Units Fix #
--- -----------------------
--- Tags
-INSERT INTO Tags
-		(Tag,						Vocabulary)
-VALUES	('CLASS_TRIBAL_RECON',		'ABILITY_CLASS'),
-		('CLASS_TRIBAL_MELEE',		'ABILITY_CLASS'),
-		('CLASS_TRIBAL_RANGED',		'ABILITY_CLASS'),
-		('CLASS_TRIBAL_ANTICAV',	'ABILITY_CLASS'),
-		('CLASS_TRIBAL_LIGHT_CAV',	'ABILITY_CLASS'),
-		('CLASS_TRIBAL_HEAVY_CAV',	'ABILITY_CLASS'),
-		('CLASS_TRIBAL_SIEGE',		'ABILITY_CLASS'),
-		('CLASS_TRIBAL_NAVAL',		'ABILITY_CLASS'),
-		('CLASS_TRIBAL_RAIDER',		'ABILITY_CLASS');
-
-
--- TypeTags	
-INSERT INTO TypeTags
-		(Type,							Tag)
-VALUES	('UNIT_SCOUT',					'CLASS_TRIBAL_RECON'),
-		('UNIT_RANGER',					'CLASS_TRIBAL_RECON'),
-
-		('UNIT_WARRIOR',				'CLASS_TRIBAL_MELEE'),
-		('UNIT_SWORDSMAN',				'CLASS_TRIBAL_MELEE'),
-		('UNIT_LONGSWORDSMAN',			'CLASS_TRIBAL_MELEE'),
-		('UNIT_MUSKETMAN',				'CLASS_TRIBAL_MELEE'),
-		('UNIT_RIFLEMAN',				'CLASS_TRIBAL_MELEE'),
-		('UNIT_INFANTRY',				'CLASS_TRIBAL_MELEE'),
-
-		('UNIT_ARCHER',					'CLASS_TRIBAL_RANGED'),
-		('UNIT_COMPOSITE_BOWMAN',		'CLASS_TRIBAL_RANGED'),
-		('UNIT_CROSSBOWMAN',			'CLASS_TRIBAL_RANGED'),
-		('UNIT_ARQUEBUSIER',			'CLASS_TRIBAL_RANGED'),
-		('UNIT_MACHINE_GUN',			'CLASS_TRIBAL_RANGED'),
-
-		('UNIT_SPEARMAN',				'CLASS_TRIBAL_ANTICAV'),
-		('UNIT_HEAVY_INFANTRY',			'CLASS_TRIBAL_ANTICAV'),
-		('UNIT_AT_CREW',				'CLASS_TRIBAL_ANTICAV'),
-
-		('UNIT_HORSEMAN',				'CLASS_TRIBAL_LIGHT_CAV'),
-		('UNIT_CAVALRY',				'CLASS_TRIBAL_LIGHT_CAV'),
-
-		('UNIT_BARBARIAN_HORSE_ARCHER',	'CLASS_TRIBAL_SIEGE'),
-		('UNIT_CATAPULT',				'CLASS_TRIBAL_SIEGE'),
-		('UNIT_ARTILLERY',				'CLASS_TRIBAL_SIEGE'),
-
-		('UNIT_KNIGHT',					'CLASS_TRIBAL_HEAVY_CAV'),
-		('UNIT_TANK',					'CLASS_TRIBAL_HEAVY_CAV'),
-
-		('UNIT_GALLEY',					'CLASS_TRIBAL_NAVAL'),
-		('UNIT_CARAVEL',				'CLASS_TRIBAL_NAVAL'),
-		('UNIT_IRONCLAD',				'CLASS_TRIBAL_NAVAL'),
-		
-		('UNIT_QUADRIREME',				'CLASS_TRIBAL_RAIDER'),
-		('UNIT_PRIVATEER',				'CLASS_TRIBAL_RAIDER'),
-		('UNIT_SUBMARINE',				'CLASS_TRIBAL_RAIDER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_EXPLORER', 'CLASS_TRIBAL_RECON'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_EXPLORER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_MEDIEVAL_HORSEMAN', 'CLASS_TRIBAL_LIGHT_CAV'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_MEDIEVAL_HORSEMAN');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_DLV_CUIRASSIER', 'CLASS_TRIBAL_HEAVY_CAV'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_DLV_CUIRASSIER');
-
--- R&F Compatibility
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_PIKE_AND_SHOT', 'CLASS_TRIBAL_ANTICAV'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_SPEC_OPS', 'CLASS_TRIBAL_RECON'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SPEC_OPS');
-
--- GS Compatibility
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_SKIRMISHER', 'CLASS_TRIBAL_RECON'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SKIRMISHER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_COURSER', 'CLASS_TRIBAL_LIGHT_CAV'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_COURSER');
-
-INSERT INTO TypeTags (Type, Tag)
-SELECT 'UNIT_CUIRASSIER', 'CLASS_TRIBAL_HEAVY_CAV'
-WHERE EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_CUIRASSIER');
-
-
--- BarbarianTribes
-UPDATE BarbarianTribes
-SET ScoutTag = 'CLASS_TRIBAL_NAVAL', MeleeTag = 'CLASS_TRIBAL_NAVAL', RangedTag = 'CLASS_TRIBAL_RAIDER', SiegeTag = 'CLASS_TRIBAL_RAIDER', DefenderTag = 'CLASS_TRIBAL_ANTICAV'
-WHERE TribeType = 'TRIBE_NAVAL';
-
-UPDATE BarbarianTribes
-SET ScoutTag = 'CLASS_TRIBAL_RECON', MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangedTag = 'CLASS_TRIBAL_HEAVY_CAV', SiegeTag = 'CLASS_TRIBAL_SIEGE', DefenderTag = 'CLASS_TRIBAL_RANGED'
-WHERE TribeType = 'TRIBE_CAVALRY';
-
-UPDATE BarbarianTribes
-SET ScoutTag = 'CLASS_TRIBAL_RECON', MeleeTag = 'CLASS_TRIBAL_MELEE', RangedTag = 'CLASS_TRIBAL_RANGED', SiegeTag = 'CLASS_TRIBAL_SIEGE', DefenderTag = 'CLASS_TRIBAL_ANTICAV', SupportTag = 'CLASS_TRIBAL_RANGED'
-WHERE TribeType = 'TRIBE_MELEE';
-
-
--- BarbarianAttackForces
--- Melee
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE'
-WHERE AttackForceType = 'LowDifficultyStandardRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE', RangeTag = 'CLASS_TRIBAL_RANGED'
-WHERE AttackForceType = 'StandardRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE', RangeTag = 'CLASS_TRIBAL_RANGED'
-WHERE AttackForceType = 'HighDifficultyStandardRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE', RangeTag = 'CLASS_TRIBAL_RANGED', SiegeTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'LowDifficultyStandardAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE', RangeTag = 'CLASS_TRIBAL_RANGED', SiegeTag = 'CLASS_TRIBAL_SIEGE', SupportTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'StandardAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_MELEE', RangeTag = 'CLASS_TRIBAL_RANGED', SiegeTag = 'CLASS_TRIBAL_SIEGE', SupportTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'HighDifficultyStandardAttack';
-
--- Cavalry
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV'
-WHERE AttackForceType = 'LowDifficultyCavalryRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangeTag = 'CLASS_TRIBAL_HEAVY_CAV'
-WHERE AttackForceType = 'CavalryRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangeTag = 'CLASS_TRIBAL_HEAVY_CAV'
-WHERE AttackForceType = 'HighDifficultyCavalryRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangeTag = 'CLASS_TRIBAL_HEAVY_CAV', SiegeTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'LowDifficultyCavalryAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangeTag = 'CLASS_TRIBAL_HEAVY_CAV', SiegeTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'CavalryAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_LIGHT_CAV', RangeTag = 'CLASS_TRIBAL_HEAVY_CAV', SiegeTag = 'CLASS_TRIBAL_SIEGE'
-WHERE AttackForceType = 'HighDifficultyCavalryAttack';
-
--- Navy
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL'
-WHERE AttackForceType = 'LowDifficultyNavalRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL', RangeTag = 'CLASS_TRIBAL_RAIDER'
-WHERE AttackForceType = 'NavalRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL', RangeTag = 'CLASS_TRIBAL_RAIDER'
-WHERE AttackForceType = 'HighDifficultyNavalRaid';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL', RangeTag = 'CLASS_TRIBAL_RAIDER', SiegeTag = 'CLASS_TRIBAL_RAIDER'
-WHERE AttackForceType = 'LowDifficultyNavalAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL', RangeTag = 'CLASS_TRIBAL_RAIDER', SiegeTag = 'CLASS_TRIBAL_RAIDER'
-WHERE AttackForceType = 'NavalAttack';
-
-UPDATE BarbarianAttackForces
-SET MeleeTag = 'CLASS_TRIBAL_NAVAL', RangeTag = 'CLASS_TRIBAL_RAIDER', SiegeTag = 'CLASS_TRIBAL_RAIDER'
-WHERE AttackForceType = 'HighDifficultyNavalAttack';
