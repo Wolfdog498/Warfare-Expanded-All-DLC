@@ -212,21 +212,6 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_ARTILLERY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_HK">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_HK">
-			<Text>火繩槍輕騎兵是17世紀早期和中期西歐發現的最常見的騎兵形式。早期的火繩槍騎兵的特點是使用壹種叫做“豎琴”的卡賓槍。根據約翰·克魯索(John Cruso)1632年在他的《騎兵手冊》中所說，“豎琴最早發明于法國”。這種類型的騎兵的特點是使用壹種形式的卡賓槍，最早使用的卡賓槍被稱爲“火槍”(這個詞來源于較重的步兵武器“火槍”)。在16世紀晚期到下個世紀的頭幾十年裏，火繩槍輕騎兵和卡賓槍輕騎兵壹樣被設想爲支持更重的裝甲騎兵、半長矛騎兵或配備手槍的鐵騎軍和騎兵。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_HK">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_HK">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_HK">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_HK">
-			<Text />
-		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_HK">
 			<Text>近代步兵成爲世界戰場上奪取和控制地面的主要力量，是聯合武器作戰的重要組成部分。隨著火力的繼續增加，使用的步兵線減少，直到所有的步兵在實踐中變成輕步兵。突擊步槍是壹種選擇步槍，使用壹個中間的子彈和壹個可拆卸的彈匣。突擊步槍第壹次使用是在第二次世界大戰期間。盡管西方國家在接受突擊步槍概念方面行動遲緩，但到20世紀末，它們已成爲世界上大多數軍隊的標准武器，在多數場合取代了全動力步槍和沖鋒槍。</Text>
 		</Replace>
