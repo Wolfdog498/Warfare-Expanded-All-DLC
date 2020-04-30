@@ -212,21 +212,6 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_ARTILLERY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
 			<Text />
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>火绳枪轻骑兵是17世纪早期和中期西欧发现的最常见的骑兵形式。早期的火绳枪骑兵的特点是使用一种叫做“竖琴”的卡宾枪。根据约翰·克鲁索(John Cruso)1632年在他的《骑兵手册》中所说，“竖琴最早发明于法国”。这种类型的骑兵的特点是使用一种形式的卡宾枪，最早使用的卡宾枪被称为“火枪”(这个词来源于较重的步兵武器“火枪”)。在16世纪晚期到下个世纪的头几十年里，火绳枪轻骑兵和卡宾枪轻骑兵一样被设想为支持更重的装甲骑兵、半长矛骑兵或配备手枪的铁骑军和骑兵。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text />
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HARQUEBUSIER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text />
-		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>近代步兵成为世界战场上夺取和控制地面的主要力量，是联合武器作战的重要组成部分。随着火力的继续增加，使用的步兵线减少，直到所有的步兵在实践中变成轻步兵。突击步枪是一种选择步枪，使用一个中间的子弹和一个可拆卸的弹匣。突击步枪第一次使用是在第二次世界大战期间。尽管西方国家在接受突击步枪概念方面行动迟缓，但到20世纪末，它们已成为世界上大多数军队的标准武器，在多数场合取代了全动力步枪和冲锋枪。</Text>
 		</Replace>
