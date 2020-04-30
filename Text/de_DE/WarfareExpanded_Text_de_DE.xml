@@ -92,12 +92,6 @@
 		<Replace Tag="LOC_UNIT_FIELD_ARTILLERY_DESCRIPTION" Language="de_DE">
 			<Text>Fernkampfeinheit des Informationszeitalters.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_NAME" Language="de_DE">
-			<Text>Arkebusierreiter</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_DESCRIPTION" Language="de_DE">
-			<Text>Schnelle leichte Kavallerieeinheit der Renaissance.</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_MODERN_INFANTRY_NAME" Language="de_DE">
 			<Text>Moderne Infanterie</Text>
 		</Replace>
