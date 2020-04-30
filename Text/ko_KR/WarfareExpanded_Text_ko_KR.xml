@@ -92,12 +92,6 @@
 		<Replace Tag="LOC_UNIT_FIELD_ARTILLERY_DESCRIPTION" Language="ko_KR">
 			<Text>정보시대의 원거리유닛입니다.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_NAME" Language="ko_KR">
-			<Text>용기병</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_DESCRIPTION" Language="ko_KR">
-			<Text>르네상스 시대의 경기병 유닛입니다.</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_MODERN_INFANTRY_NAME" Language="ko_KR">
 			<Text>현대 보병</Text>
 		</Replace>
